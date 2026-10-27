@@ -39,7 +39,7 @@ Patcher writes a separate output file. Your Alternative v6 source file stays unc
 
 - Guard Team starter choices
 - Team Rookies lineups
-- Optional Guardian choice per Guard Team
+- Optional Guardian choice per Guard Team, starts at Level 1
 - Input validation before build
 - Separate output file protection
 
