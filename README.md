@@ -10,7 +10,7 @@ Custom patcher for **Digimon World 2 Alternative v6**.
 </p>
 
 <p align="center">
-  <a href="../../releases/latest">Download v1.0.1</a>
+  <a href="../../releases/latest">Download v1.0.2</a>
   ·
   <a href="https://youtube.com/@gamerbapak?sub_confirmation=1">Subscribe GamerBapak</a>
 </p>
@@ -21,8 +21,8 @@ Custom patcher for **Digimon World 2 Alternative v6**.
 
 | Platform | Download |
 | :--- | :--- |
-| Windows 10 / 11, 64-bit | [`DW2-Alternative-GamerBapak-Custom-Patcher-v1.0.1.exe`](../../releases/download/v1.0.1/DW2-Alternative-GamerBapak-Custom-Patcher-v1.0.1.exe) |
-| macOS | [`DW2-Alternative-GamerBapak-Custom-Patcher-v1.0.1-macos.zip`](../../releases/download/v1.0.1/DW2-Alternative-GamerBapak-Custom-Patcher-v1.0.1-macos.zip) |
+| Windows 10 / 11, 64-bit | [`DW2-Alternative-GamerBapak-Custom-Patcher-v1.0.2.exe`](../../releases/download/v1.0.2/DW2-Alternative-GamerBapak-Custom-Patcher-v1.0.2.exe) |
+| macOS | [`DW2-Alternative-GamerBapak-Custom-Patcher-v1.0.2-macos.zip`](../../releases/download/v1.0.2/DW2-Alternative-GamerBapak-Custom-Patcher-v1.0.2-macos.zip) |
 
 ## Before You Start
 
@@ -116,5 +116,5 @@ No game files, ROMs, BIOS, base images, or Alternative patch assets are included
 
 ## Status
 
-Patcher version: `v1.0.1`  
+Patcher version: `v1.0.2`  
 Generated mods still require in-game testing before a full playthrough.
