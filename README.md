@@ -43,6 +43,54 @@ Patcher writes a separate output file. Your Alternative v6 source file stays unc
 - Input validation before build
 - Separate output file protection
 
+## What This Patcher Changes
+
+### Guard Team starters
+
+Choose settings independently for **Gold Hawk**, **Blue Falcon**, and **Black Sword**.
+
+| Option | Result |
+| :--- | :--- |
+| `Default` | Keeps Alternative v6 starter setup unchanged. |
+| `TeamRookies` | Keeps default first starter and adds two Rookie companions. |
+| `Omnimon` | Keeps default first starter and adds Omnimon. |
+| `Veemon` | Keeps default first starter and adds Veemon. |
+| `OmnimonAndVeemon` | Keeps default first starter and adds both Omnimon and Veemon. |
+
+### Team Rookies additions
+
+| Guard Team | Added companions |
+| :--- | :--- |
+| Gold Hawk | Agumon and Veemon |
+| Blue Falcon | Gotsumon and Betamon |
+| Black Sword | Kunemon and DemiDevimon |
+
+### Optional Guardian
+
+Pick one optional Guardian for each Guard Team: **Vir**, **Dat**, or **Vac**. Guardian fills remaining starter slot. It cannot be combined with `TeamRookies` or `OmnimonAndVeemon`, because those setups already use all three starter slots.
+
+Guardian begins at **Level 1**, matching Omnimon's level-one start. Guardian uses its native donor encounter record for starting data; only its level is changed to 1.
+
+### Economy
+
+EXP and Bits rewards can be configured from **0.5× through 5×**. Reward values cap at game field limit `65535`.
+
+### Deliberately Not Included
+
+- Chaos General option: unavailable in Alternative v6 target tables, so excluded.
+- Vanilla Digimon World 2 support.
+- Other Alternative versions.
+- Game files, ROMs, BIOS, base images, or Alternative patch files.
+
+## Safety and Verification
+
+- Patcher accepts only verified Alternative v6 base BIN hash.
+- Source BIN stays read-only. Patcher copies it before modifying anything.
+- Output gets new `.bin`, `.cue`, and `.manifest.json` files.
+- Modified Mode 2 sectors receive regenerated EDC/ECC.
+- Build verifies changed-sector whitelist and output payload readback.
+- Build checks pass. In-game boot, battle, save/load, and full-playthrough behavior remain **UNTESTED**.
+
 ## Credits
 
 **GamerBapak Custom Patcher** created by [GamerBapak](https://youtube.com/@gamerbapak).
