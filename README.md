@@ -67,7 +67,15 @@ Choose settings independently for **Gold Hawk**, **Blue Falcon**, and **Black Sw
 
 ### Optional Guardian
 
-Pick one optional Guardian for each Guard Team: **Vir**, **Dat**, or **Vac**. Guardian fills remaining starter slot. It cannot be combined with `TeamRookies` or `OmnimonAndVeemon`, because those setups already use all three starter slots.
+Pick one optional Guardian for each Guard Team:
+
+| Patcher option | Guardian |
+| :--- | :--- |
+| `Vir` | Virus Guardian |
+| `Dat` | Data Guardian |
+| `Vac` | Vaccine Guardian |
+
+Guardian fills remaining starter slot. It cannot be combined with `TeamRookies` or `OmnimonAndVeemon`, because those setups already use all three starter slots.
 
 Guardian begins at **Level 1**, matching Omnimon's level-one start. Guardian uses its native donor encounter record for starting data; only its level is changed to 1.
 
